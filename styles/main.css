@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #74b9ff;
+  font-family: "Roboto", 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, #22c3c1), color-stop(93%, #dbe3e6));
+  background: linear-gradient(0deg, #22c3c1 33%, #dbe3e6 93%);
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+  background-color: #2ecc71;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+@import "variables";
+
+body{
+  background-color: $primary-color;
+  font-family: "Roboto", 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.grid{
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, rgba(34,195,193,1) 33%, rgba(219,227,230,1) 93%);
+  div{
+    height: 20px;
+    width: 20px;
+    background-color: $first;
+  }
+}

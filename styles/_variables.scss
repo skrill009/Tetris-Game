@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+//? for the background and text;
+$primary-color: #74b9ff;
+$secondary-color: #636e72;
+
+//? for the grid colors;
+$first: #2ecc71;
+$second: #ff7675;
+$third: #a29bfe;
+$fourth: #fdcb6e;
+$fifth: #fd79a8;
