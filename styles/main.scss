@@ -8,24 +8,46 @@ body {
   width: 100vw;
 }
 
-.grid {
-  min-hidth: 100vh;
+button{
+  cursor: pointer;
+}
+
+.container{
+  display:flex;
   margin: 10rem auto;
-  width: 200px;
-  height: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  background: linear-gradient(
-    0deg,
-    rgba(34, 195, 193, 1) 33%,
-    rgba(219, 227, 230, 1) 93%
-  );
-  div {
-    height: 20px;
-    width: 20px;
+  .grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(
+      0deg,
+      rgba(34, 195, 193, 1) 33%,
+      rgba(219, 227, 230, 1) 93%
+    );
   }
-  .tetromino {
-    background-color: $second;
-    border: 2px solid white;
+  .grid div{
+      height: 20px;
+      width: 20px;
   }
+
+  .mini-grid{
+    margin-left: 4rem;
+    width: 80px;
+    height: 80px;
+    display:flex;
+    flex-wrap: wrap;
+    background: linear-gradient(
+      0deg,
+      rgba(34, 195, 193, 1) 33%,
+      rgba(219, 227, 230, 1) 93%
+    );
+    div{
+      height: 20px;
+      width: 20px;
+    }
+  }
+}
+.tetromino {
+  border: 2px solid white;
 }
