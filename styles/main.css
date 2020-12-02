@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,15 +7,33 @@
   padding: 0;
 }
 
-body {
-  background-color: #74b9ff;
-  font-family: "Roboto", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  height: 100vh;
-  width: 100vw;
+* {
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-button {
-  cursor: pointer;
+body {
+  background-color: #74b9ff;
+  font-family: "Goldman",sans-serif, Georgia, 'Times New Roman', Times, serif;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .container {
@@ -23,11 +41,37 @@ button {
   display: -ms-flexbox;
   display: flex;
   margin: 10rem auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .control-container {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 3rem;
+}
+
+.container .control-container h3 {
+  width: 300px;
+  margin-bottom: 10rem;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.container .control-container button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin-left: 3rem;
 }
 
 .container .grid {
-  width: 200px;
-  height: 400px;
+  width: 300px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,14 +82,14 @@ button {
 }
 
 .container .grid div {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
 }
 
 .container .mini-grid {
   margin-left: 4rem;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,8 +100,8 @@ button {
 }
 
 .container .mini-grid div {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
 }
 
 .tetromino {
